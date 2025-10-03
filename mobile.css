@@ -1,0 +1,4 @@
+/* Mobile-first tweaks */
+h1 { font-size: 1.5rem; }
+.nav li { display: block; margin: .25rem 0; }
+.profile { max-width: 160px; }

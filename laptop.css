@@ -1,0 +1,4 @@
+/* Desktop-specific tweaks */
+h1 { font-size: 2rem; }
+.container { max-width: 1000px; }
+.project-card { padding: 1.25rem; }

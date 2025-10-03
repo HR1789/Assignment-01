@@ -1,0 +1,4 @@
+/* Tablet-specific tweaks */
+h1 { font-size: 1.75rem; }
+.nav li { display: inline-block; }
+.container { max-width: 900px; }
