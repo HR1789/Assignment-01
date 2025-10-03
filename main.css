@@ -1,0 +1,64 @@
+/* Use different colours */
+
+:root {
+    --bg: #0b1020; /* background */
+    --text: #e5e7eb; /* text */
+    --primary: #60a5fa; /* primary */
+    --accent: #34d399; /* accent */
+    --muted: #94a3b8; /* muted text */
+    --card: #111827; /* card bg */
+}
+
+* {box-sizing: border-box;}
+html { scroll-behavior: smooth;}
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+}
+
+/* Header and Navigation */
+.container { width: 92%; max-width: 1000px; margin: 0 auto; }
+.site-header { color: #0b1020; }
+.site-header .container { padding: 1rem 0; }
+.site-header h1 { margin: 0 0 .5rem; }
+.nav { list-style: none; padding: 0; margin: 0; }
+.nav li { display: inline-block; margin-right: 1rem; }
+.nav a { text-decoration: none; padding: .4rem .6rem; border-radius: .5rem; background: rgba(255,255,255,.12); color: #fff; }
+.nav a[aria-current="page"] { background: rgba(255,255,255,.3); font-weight: 700; }
+
+/* Cards */
+.card, .project-card {
+background: var(--card);
+padding: 1rem; border-radius: .75rem; margin: 1rem 0; border: 1px solid rgba(255,255,255,.08);
+}
+
+/* Text & media */
+h1, h2, h3 { line-height: 1.25; }
+img, video { max-width: 100%; height: auto; border-radius: .5rem; }
+.profile { max-width: 220px; display: block; }
+.note { color: var(--muted); font-size: .95rem; }
+
+/* Forms */
+form { background: var(--card); padding: 1rem; border-radius: .75rem; border: 1px solid rgba(255,255,255,.08); }
+label { display: block; margin-top: .75rem; }
+input, textarea, button { width: 100%; padding: .6rem; border-radius: .5rem; border: 1px solid rgba(255,255,255,.15); background: #0f172a; color: var(--text); }
+input:focus, textarea:focus { outline: 2px solid var(--primary); }
+button { cursor: pointer; background: linear-gradient(180deg, var(--primary), var(--accent)); border: none; font-weight: 700; }
+
+/* Footer */
+.site-footer { margin-top: 2rem; padding: 1rem 0; text-align: center; color: #cbd5e1; background: rgba(255,255,255,.03); }
+.site-footer a { color: #fff; }
+
+/*Gradient utilities (requirement: linear + angled) */
+.gradient-hero {
+/* angled (135deg) gradient */
+background: linear-gradient(135deg, var(--primary), var(--accent));
+}
+
+.angle-gradient {
+/* straight (180deg) gradient overlay on card */
+background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.01)), var(--card);
+}
