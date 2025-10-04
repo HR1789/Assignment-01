@@ -1,6 +1,6 @@
 # Personal Portfolio – Haider Raza
 
-A responsive 4-page portfolio (Home, About, Projects, Contact) built with semantic HTML5 and CSS3. No Flexbox was used (per course rules). The site showcases my background, selected projects, and a contact form with HTML5 validation.
+A responsive 4-page portfolio (Home, About, Projects, Contact) built with semantic HTML5 and CSS3. The site showcases my background, selected projects, and a contact form with HTML5 validation.
 
 ---
 
@@ -73,5 +73,4 @@ The palette was generated with Adobe Color and includes:
 
 ## 📄 Credits / Notes
 - All HTML/CSS authored by Haider Raza.
-- No external CSS frameworks or Flexbox used (per course requirement).
 - Gradients and color variables implemented with standard CSS custom properties.
